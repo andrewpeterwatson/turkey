@@ -26,3 +26,4 @@ require('./controller/home-controller')
 
 require('./component/home-intro')
 require('./component/info')
+require('./component/lodging')
