@@ -25,3 +25,4 @@ require('./view/home/index.js');
 require('./controller/home-controller')
 
 require('./component/home-intro')
+require('./component/info')
