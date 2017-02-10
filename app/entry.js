@@ -25,3 +25,12 @@ require('./view/home/index.js');
 require('./controller/home-controller')
 
 require('./component/home-intro')
+require('./component/info')
+require('./component/lodging')
+require('./component/food')
+require('./component/accomodations')
+require('./component/journey')
+require('./component/map')
+require('./component/funday')
+require('./component/schedule')
+require('./component/contact')
