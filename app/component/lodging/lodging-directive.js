@@ -13,6 +13,9 @@ angular.module('turkey')
   };
 
     function HomeController($location) {
+      this.lodgingSelect = function(lodging){
+        console.log('chose', lodging);
+      }
     }
   }
 )
