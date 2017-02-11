@@ -3,8 +3,29 @@
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 500px;
+  height: 2000px;
   color: black;
   background-color: white;
   font-size: 10em;
+}
+
+.lodging-flex-container {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  align-content: flex-end;
+}
+
+.lodging-image-container {
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 300px;
+  height: 300px;
+  box-shadow: 10px 10px 38px -13px rgba(0,0,0,0.75);
+  margin: 35px;
+  outline: 1px red dashed;
 }
