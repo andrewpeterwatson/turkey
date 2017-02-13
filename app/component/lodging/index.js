@@ -1,4 +1,4 @@
 'use strict';
 
-require('./lodging-directive');
-require('./_lodging.scss');
+require('./lodging-page-directive');
+require('./_lodging-page.scss');

@@ -1,0 +1,12 @@
+<div class="lodging-page">
+
+  <lodging-modal
+  ng-show="lodgeCtrl.displayModalImage"
+  close-modal="lodgeCtrl.hideModalImage()"
+  lodging="{{lodgeCtrl.displayLodging}}">
+  </lodging-modal>
+
+  <lodging-form
+  show-modal-image="lodgeCtrl.showModalImage(lodging)">
+  </lodging-form>
+</div>
