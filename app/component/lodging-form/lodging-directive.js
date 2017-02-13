@@ -2,20 +2,28 @@
 
 const angular = require('angular');
 angular.module('turkey')
-.directive('lodging', function(){
+.directive('lodgingForm', function(){
   return {
     restrict: 'E',
     template: require('./lodging.html'),
-    controller: ['$location', HomeController],
-    controllerAs: 'homeCtrl',
+    controller: ['$location', LodgingFormController],
+    controllerAs: 'lodgeFormCtrl',
     bindToController: true,
-    scope: {}
+    scope: {
+     imageModal: '=',
+     lodging: '=',
+     showModal: '&',
+     showModalImage: '&',
+   }
   };
 
-    function HomeController($location) {
+    function LodgingFormController($location) {
+
+
       this.lodgingSelect = function(lodging){
         console.log('chose', lodging);
       }
+
     }
   }
 )

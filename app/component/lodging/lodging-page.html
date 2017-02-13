@@ -1,0 +1,9 @@
+<div class="lodging-page">
+  <h2>this is lodging-page</h2>
+
+  <lodging-modal  lodging="{{lodgeCtrl.displayLodging}}" ng-show="lodgeCtrl.displayModalImage" close-modal="lodgeCtrl.hideModalImage()"></lodging-modal>
+  <p>{{lodgeCtrl.displayLodging}}</p>
+
+
+  <lodging-form show-modal-image="lodgeCtrl.showModalImage(lodging)"></lodging-form>
+</div>
