@@ -19,11 +19,6 @@ angular.module('turkey')
 
     function LodgingFormController($location) {
 
-
-      this.lodgingSelect = function(lodging){
-        console.log('chose', lodging);
-      }
-
     }
   }
 )

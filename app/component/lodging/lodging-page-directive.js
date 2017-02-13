@@ -19,9 +19,6 @@ angular.module('turkey')
 
       this.showModalImage = function(lodging){
         this.displayLodging = lodging;
-        // console.log('diplayImage', imageUrl);
-        // this.displayImage = imageUrl || 'nope';
-        console.log('chose', lodging);
         this.displayModalImage = true;
       };
 
