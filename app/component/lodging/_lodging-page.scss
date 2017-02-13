@@ -4,8 +4,15 @@
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 500px;
+  height: 1600px;
   color: black;
-  background-color: white;
-  font-size: 10em;
+  background-color: lightblue;
+
+  @media only screen and (min-width : 740px) {
+    height: 850px;
+  };
+
+  @media only screen and (min-width : 1480px) {
+    height: 500px;
+  }
 }
