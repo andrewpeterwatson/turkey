@@ -1,10 +1,54 @@
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+  > .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
 .schedule {
   outline: 1px grey solid;
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 500px;
   color: black;
-  background-color: white;
-  font-size: 10em;
+  background-color: blue;
+  // @include aspect-ratio(9, 16);
+}
+
+
+
+.schedule-els {
+  float:left;
+  margin: 1px;
+  width:32%;
+  outline: 2px white solid;
+}
+
+.schedule-container {
+  @include aspect-ratio(9, 16);
+}
+
+#camp-stove {
+  background-image: url("../../assets/images/camp-stove.jpg");
+  background-size: auto 100%;
+  background-position: center;
+}
+#camp-camper {
+  background-image: url("../../assets/images/camper-stars.jpg");
+  background-size: auto 100%;
+  background-position: center;
+}
+#camp-starter {
+  background-image: url("../../assets/images/fire-starter.jpg");
+  background-size: auto 100%;
+  background-position: center;
 }
