@@ -7,6 +7,78 @@
   width: 100vw;
   height: 100%;
   color: black;
-  background-color: red;
+  background-color: rgba(0, 0, 0, 0.75);;
   font-size: 10em;
+}
+.lodging-hotel-overlay {
+  position: absolute;
+  height: 400px;
+  width: 700px;
+  background-color: whitesmoke;
+  opacity: .5;
+}
+
+
+.lodging-modal-contents-container {
+  padding: 0 auto;
+  margin: 0 auto;
+  display: block;
+  width: 700px;
+  height: 400px;
+  margin-top: 170px;
+  background-color: white;
+}
+
+.lodging-hotel-container {
+  height: 100%;
+  width: 100%;
+}
+.lodging-hotel-els {
+  width: 50%;
+  height: 100%;
+  float: left;
+  outline: 18px white solid;
+}
+.airbnb {
+  background-image: url('../../assets/images/air-image.png');
+}
+.twisp-hotel {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../../assets/images/twisp-image.jpg');
+}
+
+
+#twisp-icon {
+  position: absolute;
+  margin-left: 26px;
+  margin-top: 36px;
+  width: 300px;
+}
+#twisp-desc {
+  width: 305px;
+  text-align: center;
+  color: black;
+  font-size: .14em;
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  margin-top: 200px;
+}
+
+#airBnB-icon {
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 50px;
+  width: 300px;
+}
+#air-desc {
+  width: 305px;
+  text-align: center;
+  color: black;
+  font-size: .14em;
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  margin-top: 200px;
 }

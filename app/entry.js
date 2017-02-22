@@ -20,6 +20,8 @@ angular.module('turkey', [ngRoute])
   });
 }]);
 
+require('./service/modal-service')
+
 require('./view/home/index.js');
 
 require('./controller/home-controller')

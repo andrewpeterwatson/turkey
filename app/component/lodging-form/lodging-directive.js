@@ -6,7 +6,7 @@ angular.module('turkey')
   return {
     restrict: 'E',
     template: require('./lodging.html'),
-    controller: ['$location', LodgingFormController],
+    controller: ['$location','lodgeSelectionService', LodgingFormController],
     controllerAs: 'lodgeFormCtrl',
     bindToController: true,
     scope: {
@@ -17,8 +17,11 @@ angular.module('turkey')
    }
   };
 
-    function LodgingFormController($location) {
+    function LodgingFormController($location, lodgeSelectionService) {
 
+      this.chooseLodging = function(lodging) {
+        lodgeSelectionService.lodgeSelection.lodging = lodging
+      }
     }
   }
 )
