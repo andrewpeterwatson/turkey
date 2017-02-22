@@ -1,3 +1,24 @@
-<div class="lodging-modal" ng-click="closeModal()">
-  <h2>{{lodging}}</h2>
+<div class="lodging-modal" ng-click="lodgeMCtrl.closeModal()">
+  <h2>{{lodgeMCtrl.lodging}}</h2>
+  <div class="lodging-modal-contents-container">
+    <h3 ng-show="lodgeCtrl.hotel">{{lodgeMCtrl.lodging}}</h3>
+    <div class="lodging-initiate">
+      {{lodgeMCtrl.lodgingSelection()}}
+    </div>
+    <!-- <div class="lodging-hotel-overlay"></div> -->
+    <div class="lodging-hotel-container" ng-show="lodgeMCtrl.hotel">
+      <div class="lodging-hotel-els airbnb">
+        <a target="_blank" href="https://www.airbnb.com/s/Twisp--WA--United-States?page=1&amp;allow_override%5B%5D=&amp;place_id=ChIJ4d3B1PujnFQRRzSMxpEKmiE&amp;s_tag=p3JeOjhq">
+          <img id="airBnB-icon" src="../../assets/icons/airbnb.png" alt="AirBnB">
+        </a>
+        <p id="air-desc">Start exploring. Book unique homes and experience a city like a local.</p>
+      </div>
+      <div class="lodging-hotel-els twisp-hotel">
+          <a href="http://www.twispriversuites.com/" target="_blank">
+            <img id="twisp-icon" src="../../assets/icons/twisp-hotel.png" alt="Twisp Hotel">
+          </a>
+          <p id="twisp-desc">In the heart of Twisp, on the banks of the Twisp River, just a stroll away from art galleries, quaint shops, terrific restaurants, and world class recreation!</p>
+      </div>
+    </div>
+  </div>
 </div>

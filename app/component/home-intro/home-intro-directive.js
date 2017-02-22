@@ -13,6 +13,8 @@ angular.module('turkey')
   };
 
     function HomeController($location) {
+
+  
     }
   }
 )
