@@ -6,6 +6,33 @@
       {{lodgeMCtrl.lodgingSelection()}}
     </div>
     <!-- <div class="lodging-hotel-overlay"></div> -->
+
+    <div class="lodging-tent-container" ng-show="lodgeMCtrl.tent">
+      <img id="tent-camping-image" src="../../assets/images/camping.jpg" alt="Tent Camping">
+      <h2 id="tent-camping-heading">Tent Camping</h2>
+      <p id="tent-camping-desc">Tent campers can camp anywhere within 160 acres of Skalitude but we recommend the Okanogan Forest, which butts up to the property. It has sites that are already tamped down, shaded, and close to the outhouses. If you need to rent any gear we recommend REI Rentals.</p>
+    </div>
+    <div class="lodging-single-container" ng-show="lodgeMCtrl.single">
+      
+    </div>
+    <div class="lodging-share-container" ng-show="lodgeMCtrl.share">
+      <h2 id="shared-heading">Social SLeeping</h2>
+      <div class="lodging-share-image-container">
+        <div class="lodging-share-images">
+          <p id="main-2-desc">Main Cabin – includes a kitchen, plumbed bathroom, and living/dinning room area,</p>
+          <img id="main-2" src="../../assets/images/main-cabin-2.jpg" alt="Share Cabin">
+        </div>
+        <div class="lodging-share-images">
+          <p id="main-1-desc">As is the nature of cabins, there are multiple beds per room.</p>
+          <img id="main-1" src="../../assets/images/main-cabin-1.jpg" alt="Share Cabin">
+        </div>
+        <div class="lodging-share-images">
+          <p id="main-3-desc">Bermhouse – includes half shared baths, twin beds and dressers.</p>
+          <img id="main-3" src="../../assets/images/main-cabin-3.jpg" alt="Share Cabin"></div>
+      </div>
+    </div>
+
+
     <div class="lodging-hotel-container" ng-show="lodgeMCtrl.hotel">
       <div class="lodging-hotel-els airbnb">
         <a target="_blank" href="https://www.airbnb.com/s/Twisp--WA--United-States?page=1&amp;allow_override%5B%5D=&amp;place_id=ChIJ4d3B1PujnFQRRzSMxpEKmiE&amp;s_tag=p3JeOjhq">
