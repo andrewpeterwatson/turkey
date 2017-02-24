@@ -17,6 +17,22 @@
   opacity: .5;
 }
 
+#close-modal {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 856px;
+  margin-top: 165px;
+  z-index: 2;
+  font-size: 3em;
+
+  &:hover {
+    color: white;
+    cursor: pointer;
+  }
+}
+
 
 .lodging-modal-contents-container {
   padding: 0 auto;
@@ -72,7 +88,7 @@
 .lodging-share-container {
   height: 100%;
   width: 100%;
-  background-color: red;
+  background-color: white;
 }
 
 .lodging-share-images {
@@ -151,6 +167,53 @@
   margin-top: 200px;
 }
 
+.lodging-single-image-container {
+  height: 400px;
+  width: 700px;
+}
+.lodging-single-images {
+  height: 400px;
+  width: 350px;
+  float: left;
+  overflow: hidden;
+  outline: 1px solid white;
+}
+.single-image {
+  height: 400px;
+}
+#single-1 {
+  margin-left: -54px;
+}
+#single-2 {
+  margin-left: -172px;
+}
+#single-heading {
+  position: absolute;
+  margin-top: -65px;
+  font-size: 5em;
+  color: white;
+}
+#single-desc-1 {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  font-size: 1.5em;
+  color: white;
+  margin-left: 73px;
+  margin-top: 219px;
+  text-align: center;
+}
+#single-desc-2 {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  font-size: 1.5em;
+  color: white;
+  margin-left: 430px;
+  margin-top: 30px;
+  text-align: center;
+}
+
 #airBnB-icon {
   position: absolute;
   margin-left: 25px;
@@ -166,4 +229,10 @@
   padding: 0 auto;
   display: block;
   margin-top: 200px;
+}
+#hotel-heading {
+  position: absolute;
+  margin-top: -65px;
+  font-size: 5em;
+  color: white;
 }

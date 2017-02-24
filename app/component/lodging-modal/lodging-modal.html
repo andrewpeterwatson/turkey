@@ -1,7 +1,6 @@
-<div class="lodging-modal" ng-click="lodgeMCtrl.closeModal()">
-  <h2>{{lodgeMCtrl.lodging}}</h2>
+<div class="lodging-modal">
   <div class="lodging-modal-contents-container">
-    <h3 ng-show="lodgeCtrl.hotel">{{lodgeMCtrl.lodging}}</h3>
+    <p id="close-modal" ng-click="lodgeMCtrl.closeModal()">X</p>
     <div class="lodging-initiate">
       {{lodgeMCtrl.lodgingSelection()}}
     </div>
@@ -13,7 +12,17 @@
       <p id="tent-camping-desc">Tent campers can camp anywhere within 160 acres of Skalitude but we recommend the Okanogan Forest, which butts up to the property. It has sites that are already tamped down, shaded, and close to the outhouses. If you need to rent any gear we recommend REI Rentals.</p>
     </div>
     <div class="lodging-single-container" ng-show="lodgeMCtrl.single">
-      
+      <div class="lodging-single-image-container">
+        <div class="lodging-single-images">
+          <img id="single-1" class="single-image" src="../../assets/images/private-1.jpg" alt="Private Room">
+        </div>
+        <div class="lodging-single-images">
+          <img id="single-2" class="single-image" src="../../assets/images/private-2.jpg" alt="Private Room">
+        </div>
+          <h2 id="single-heading">Single Camping</h2>
+            <p id="single-desc-1">There are two private rooms with queen beds in the main cabin.</p>
+          <p id="single-desc-2">Since these are limited, priority goes to those with the greatest need.</p>
+      </div>
     </div>
     <div class="lodging-share-container" ng-show="lodgeMCtrl.share">
       <h2 id="shared-heading">Social SLeeping</h2>
@@ -46,6 +55,8 @@
           </a>
           <p id="twisp-desc">In the heart of Twisp, on the banks of the Twisp River, just a stroll away from art galleries, quaint shops, terrific restaurants, and world class recreation!</p>
       </div>
+      <h2 id="hotel-heading">Hotel</h2>
     </div>
   </div>
+
 </div>
