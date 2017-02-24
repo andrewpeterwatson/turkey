@@ -6,5 +6,55 @@
   height: 500px;
   color: black;
   background-color: white;
-  font-size: 10em;
+}
+.food-container {
+  width: 100%;
+  height: 50%;
+}
+.water-rc-container {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+#food-heading {
+  width: 100%;
+  text-align: center;
+  font-size: 4em;
+}
+#food-desc {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  width: 45%;
+  text-align: center;
+}
+#food-rc {
+  display: block;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+#food-rc-desc {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  width: 45%;
+  text-align: center;
+}
+#food-water {
+  display: block;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+#food-water-desc {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  width: 45%;
+  text-align: center;
 }
