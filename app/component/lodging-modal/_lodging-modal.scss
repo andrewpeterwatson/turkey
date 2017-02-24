@@ -8,7 +8,6 @@
   height: 100%;
   color: black;
   background-color: rgba(0, 0, 0, 0.75);;
-  font-size: 10em;
 }
 .lodging-hotel-overlay {
   position: absolute;
@@ -16,6 +15,22 @@
   width: 700px;
   background-color: whitesmoke;
   opacity: .5;
+}
+
+#close-modal {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 856px;
+  margin-top: 165px;
+  z-index: 2;
+  font-size: 3em;
+
+  &:hover {
+    color: white;
+    cursor: pointer;
+  }
 }
 
 
@@ -26,7 +41,29 @@
   width: 700px;
   height: 400px;
   margin-top: 170px;
+  overflow: hidden;
   background-color: white;
+  outline: 2px white solid;
+}
+#tent-camping-image {
+  position: absolute;
+  width: 722px;
+  outline: 2px white solid;
+}
+#tent-camping-heading {
+  position: absolute;
+  margin-top: -65px;
+  font-size: 5em;
+  color: white;
+}
+#tent-camping-desc {
+  position: absolute;
+  width: 428px;
+  text-align: center;
+  color: white;
+  font-size: 1.3em;
+  margin-top: 113px;
+  margin-left: 144px;
 }
 
 .lodging-hotel-container {
@@ -48,6 +85,70 @@
   background-image: url('../../assets/images/twisp-image.jpg');
 }
 
+.lodging-share-container {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.lodging-share-images {
+  height: 400px;
+  width: 233.3px;
+  float: left;
+  background-color: white;
+  overflow: hidden;
+  outline: 2px white solid;
+}
+#shared-heading{
+  position: absolute;
+  margin-top: -65px;
+  color: white;
+  font-size: 5em;
+}
+#main-1 {
+  height: 400px;
+  margin-left: -160px;
+}
+#main-2 {
+  height: 400px;
+  margin-left: -116px;
+}
+#main-3 {
+  height: 400px;
+  margin-left: -99px;
+}
+
+#main-1-desc {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  font-size: 1.5em;
+  color: white;
+  margin-left: 24px;
+  margin-top: 30px;
+  text-align: center;
+}
+#main-2-desc {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  font-size: 1.5em;
+  color: white;
+  margin-left: 24px;
+  margin-top: 240px;
+  text-align: center;
+}
+#main-3-desc {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  font-size: 1.5em;
+  color: white;
+  margin-left: 24px;
+  margin-top: 240px;
+  text-align: center;
+}
+
 
 #twisp-icon {
   position: absolute;
@@ -59,11 +160,58 @@
   width: 305px;
   text-align: center;
   color: black;
-  font-size: .14em;
+  font-size: 1em;
   margin: 0 auto;
   padding: 0 auto;
   display: block;
   margin-top: 200px;
+}
+
+.lodging-single-image-container {
+  height: 400px;
+  width: 700px;
+}
+.lodging-single-images {
+  height: 400px;
+  width: 350px;
+  float: left;
+  overflow: hidden;
+  outline: 1px solid white;
+}
+.single-image {
+  height: 400px;
+}
+#single-1 {
+  margin-left: -54px;
+}
+#single-2 {
+  margin-left: -172px;
+}
+#single-heading {
+  position: absolute;
+  margin-top: -65px;
+  font-size: 5em;
+  color: white;
+}
+#single-desc-1 {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  font-size: 1.5em;
+  color: white;
+  margin-left: 73px;
+  margin-top: 219px;
+  text-align: center;
+}
+#single-desc-2 {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  font-size: 1.5em;
+  color: white;
+  margin-left: 430px;
+  margin-top: 30px;
+  text-align: center;
 }
 
 #airBnB-icon {
@@ -76,9 +224,15 @@
   width: 305px;
   text-align: center;
   color: black;
-  font-size: .14em;
+  font-size: 1em;
   margin: 0 auto;
   padding: 0 auto;
   display: block;
   margin-top: 200px;
+}
+#hotel-heading {
+  position: absolute;
+  margin-top: -65px;
+  font-size: 5em;
+  color: white;
 }
