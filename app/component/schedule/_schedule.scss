@@ -24,31 +24,37 @@
   // @include aspect-ratio(9, 16);
 }
 
-
-
-.schedule-els {
-  float:left;
-  margin: 1px;
-  width:32%;
-  outline: 2px white solid;
-}
-
 .schedule-container {
-  @include aspect-ratio(9, 16);
+  background-image: url('../../assets/images/schedule.jpg');
+  background-size: cover;
+  @include aspect-ratio(16,9);
 }
 
-#camp-stove {
-  background-image: url("../../assets/images/camp-stove.jpg");
-  background-size: auto 100%;
-  background-position: center;
-}
-#camp-camper {
-  background-image: url("../../assets/images/camper-stars.jpg");
-  background-size: auto 100%;
-  background-position: center;
-}
-#camp-starter {
-  background-image: url("../../assets/images/fire-starter.jpg");
-  background-size: auto 100%;
-  background-position: center;
-}
+
+//
+// .schedule-els {
+//   float:left;
+//   margin: 1px;
+//   width:32%;
+//   outline: 2px white solid;
+// }
+//
+// .schedule-container {
+//   @include aspect-ratio(9, 16);
+// }
+//
+// #camp-stove {
+//   background-image: url("../../assets/images/camp-stove.jpg");
+//   background-size: auto 100%;
+//   background-position: center;
+// }
+// #camp-camper {
+//   background-image: url("../../assets/images/camper-stars.jpg");
+//   background-size: auto 100%;
+//   background-position: center;
+// }
+// #camp-starter {
+//   background-image: url("../../assets/images/fire-starter.jpg");
+//   background-size: auto 100%;
+//   background-position: center;
+// }
