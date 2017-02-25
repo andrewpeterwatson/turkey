@@ -1,10 +1,66 @@
 .food {
-  outline: 1px green solid;
   margin: 0;
   padding: 0;
   width: 100vw;
   height: 500px;
   color: black;
   background-color: white;
-  font-size: 10em;
+}
+.food-container {
+  width: 100%;
+  height: 50%;
+}
+.water-rc-container {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+#food-heading {
+  width: 100%;
+  text-align: center;
+  font-size: 4em;
+  // font-family: 'Amatic SC', cursive;
+}
+#food-desc {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  width: 45%;
+  text-align: center;
+  font-size: 1.3em;
+  // font-family: 'Oxygen', sans-serif;
+  // font-family: 'Alegreya', serif;
+  // font-family: 'Maven Pro', sans-serif;
+}
+#food-rc {
+  display: block;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+  width: 50%;
+  // font-family: 'Amatic SC', cursive;
+}
+#food-rc-desc {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  width: 45%;
+  text-align: center;
+}
+#food-water {
+  display: block;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+  width: 50%;
+  // font-family: 'Amatic SC', cursive;
+}
+
+#food-water-desc {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  width: 45%;
+  text-align: center;
 }
