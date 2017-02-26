@@ -1,9 +1,26 @@
 .contact {
-  outline: 1px aqua solid;
   margin: 0;
   padding: 0;
   width: 100vw;
   height: 500px;
   color: black;
-  background-color: white;
+  background-image: url('../../assets/images/pattern-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#contact-gobble {
+  text-align: center;
+  font-size: 5em;
+}
+
+
+#contact-link {
+  text-align: center;
+  font-size: 2em;
+
+  &:hover {
+    color: white;
+    cursor: pointer;
+  }
 }
