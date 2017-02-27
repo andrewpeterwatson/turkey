@@ -2,6 +2,43 @@
   margin: 0;
   padding: 0;
 }
+#arrow-a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+.up-arrow {
+  position: absolute;
+  width: 100%;
+  margin-top: -10vh;
+}
+.up-arrow-border {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: 3px white solid;
+
+  &:hover {
+    cursor: pointer;
+    border-color: grey;
+    color: grey;
+  }
+}
+
+#up-arrow-arrow {
+  font-size: 5em;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  transform: translate(-8px, -33px) rotate(180deg);
+
+  &:hover {
+    color: grey;
+  }
+}
+
 
 
 

@@ -1,12 +1,17 @@
 .info {
-  outline: 1px red solid;
   margin: 0;
   padding: 0;
   width: 100vw;
   height: 1500px;
   color: black;
   background-color: white;
-  font-size: 10em;
+}
+
+.info-desc-container {
+  position: absolute;
+  width: 100%;
+  height: 86px;
+  margin-top: -168px;
 }
 
 #save-the-date-image {
@@ -14,4 +19,9 @@
     padding: 0 auto;
     display: block;
     width: 800px;
+}
+
+#info-std-desc {
+  text-align: center;
+  font-size: 5em;
 }
