@@ -2,26 +2,41 @@
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 1500px;
+  height: 1550px;
   color: black;
   background-color: white;
 }
+.info-welcome-container {
+    position: absolute;
+    width: 100%;
+    margin-top: 40px;
+}
 
+.info-welcome-desc {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 30px;
+}
+.info-welcome-heading{
+  font-size: 7em;
+}
+.text-left {
+  text-align: left;
+}
 .info-desc-container {
   position: absolute;
   width: 100%;
   height: 86px;
   margin-top: -168px;
 }
-
-#save-the-date-image {
-    margin: 0 auto;
-    padding: 0 auto;
-    display: block;
-    width: 800px;
+.info-welcome {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  width: 55vw;
 }
 
-#info-std-desc {
-  text-align: center;
-  font-size: 5em;
+#info-contact-anchor {
+  position: absolute;
+  margin-top: 10130px;
 }
