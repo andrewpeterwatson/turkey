@@ -6,5 +6,31 @@
   height: 500px;
   color: black;
   background-color: white;
-  font-size: 10em;
+}
+
+
+.std-image-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: -99px;
+}
+
+.info-desc-container {
+  position: absolute;
+  width: 100%;
+  height: 86px;
+  margin-top: 324px;
+}
+
+#save-the-date-image {
+    margin: 0 auto;
+    padding: 0 auto;
+    display: block;
+    width: 800px;
+}
+
+#info-std-desc {
+  text-align: center;
+  font-size: 5em;
 }

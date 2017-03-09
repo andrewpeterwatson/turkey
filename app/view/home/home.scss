@@ -42,7 +42,7 @@
 .up-arrow {
   position: absolute;
   width: 100%;
-  margin-top: 26vh;
+  margin-top: 33vh;
 }
 .up-arrow-border {
   margin: 0 auto;
@@ -76,11 +76,34 @@
 .heading-container {
   height: 400px;
   width: 100vw;
-  background-color: yellow;
 }
 
 .heading-name {
   position: absolute;
   font-size: 9em;
   margin-top: 280px;
+  color: white;
+}
+
+.heading-lodging-image {
+  background-image: url('../../assets/images/bernhouse.jpg');
+  background-size: cover;
+  background-position: 0px -179px;
+  background-repeat: no-repeat;
+}
+
+.heading-fl-image {
+  background-image: url('../../assets/images/meadow.jpg');
+  background-size: cover;
+  // background-position: 0px -179px;
+  background-repeat: no-repeat;
+}
+.heading-journey-image {
+  background-image: url('../../assets/images/apple-annies.jpg');
+  background-size: cover;
+  // background-position: 0px -179px;
+  background-repeat: no-repeat;
+}
+.heading-contact-image {
+  background-color: white;
 }

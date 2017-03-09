@@ -1,10 +1,155 @@
 .journey {
-  outline: 1px orange solid;
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 500px;
+  height: 4200px;
   color: black;
+  background-image: url('../../assets/images/journey-bg.jpg');
+  background-repeat: repeat-y;
+
+}
+
+.journey-container {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  width: 70vw;
+  height: 100%;
   background-color: white;
-  font-size: 10em;
+  box-shadow: 0px 14px 66px 12px rgba(0,0,0,0.75);
+}
+
+.journey-fluff-container{
+  position: absolute;
+  width: 70vw;
+  margin-top: 35px;
+}
+
+.journey-fluff {
+  width: 100%;
+  text-align: center;
+  font-size: 4em;
+}
+
+#journey-fluff-desc {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  width: 70%;
+  text-align: center;
+  margin-top: 35px;
+  font-size: 1.3em;
+}
+
+.journey-stops-container {
+  position: absolute;
+  width: 70vw;
+  height: 700px;
+  margin-top: 600px;
+}
+
+.journey-stops-heading {
+  text-align: center;
+  font-size: 6em;
+}
+
+.journey-stops-direc {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  width: 70%;
+  text-align: center;
+  margin-top: 35px;
+  font-size: 1.3em;
+}
+.journey-stops-image-container {
+  position: absolute;
+  width: 100vw;
+  margin-top: 2vw;
+  margin-left: -16vw;
+}
+.image-els {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  width: 500px;
+  box-shadow: 0px 14px 66px 12px rgba(0,0,0,0.75);
+}
+.journey-stops-location {
+  width: 50%;
+  float: left;
+  outline: 2px white solid;
+}
+.journey-stops-address {
+  margin-top: 386px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.journey-stops-address-names {
+}
+.journey-stops-desc {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  width: 70%;
+  text-align: center;
+  margin-top: 35px;
+  font-size: 1.8em;
+}
+
+.cash-wen {
+  margin-top: 1564px;
+}
+
+.ew {
+  margin-top: 2528px;
+}
+
+.cash-wen-direc {
+  margin-top: 35px;
+  font-size: 2em;
+}
+
+.cash-wen-add {
+  margin-top: 70px;
+}
+
+.map-contatiner {
+  position: absolute;
+  width: 70vw;
+  height: 400px;
+  margin-top: 3547px;
+  margin-left: -15vw;
+}
+.map-image-container {
+  position: absolute;
+  width: 100vw;
+  height: 400px;
+}
+#map-img {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  width: 400px;
+  margin-top: -400px;
+  box-shadow: 0px 0px 63px 6px rgba(0,0,0,0.75);
+}
+#map-desc {
+  margin-left: 38vw;
+  font-size: 4em;
+}
+
+.map-overlay {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  height: 400px;
+  width: 400px;
+  background-color: black;
+  opacity: .0;
+
+  &:hover {
+    opacity: .5
+  }
 }

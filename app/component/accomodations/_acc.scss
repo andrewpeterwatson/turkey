@@ -4,7 +4,29 @@
   padding: 0;
   width: 100vw;
   height: 500px;
-  color: black;
-  background-color: white;
-  font-size: 10em;
+  color: white;
+  background-image: url('../../assets/images/skal-1.jpg');
+  background-size: cover;
+}
+
+.acc-desc-container {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  width: 60%;
+}
+.acc-heading-container {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  width: 60%;
+}
+#acc-heading {
+  text-align: center;
+  font-size: 5em;
+}
+
+#acc-desc {
+  text-align: center;
+  font-size: 1.2em;
 }
