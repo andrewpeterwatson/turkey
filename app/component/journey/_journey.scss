@@ -6,6 +6,7 @@
   color: black;
   background-image: url('../../assets/images/journey-bg.jpg');
   background-repeat: repeat-y;
+  background-size: contain;
 
 }
 
@@ -40,6 +41,8 @@
   margin-top: 35px;
   font-size: 1.3em;
 }
+
+
 
 .journey-stops-container {
   position: absolute;
@@ -80,6 +83,12 @@
   float: left;
   outline: 2px white solid;
 }
+
+.journey-stops-location-annies {
+  width: 100%;
+  outline: 2px white solid;
+}
+
 .journey-stops-address {
   margin-top: 386px;
   font-size: 1.5em;
@@ -112,7 +121,7 @@
 }
 
 .cash-wen-add {
-  margin-top: 70px;
+  margin-top: 310px;
 }
 
 .map-contatiner {
@@ -133,10 +142,14 @@
   display: block;
   width: 400px;
   margin-top: -400px;
-  box-shadow: 0px 0px 63px 6px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 40px -6px rgba(0,0,0,0.75);
+}
+.map-desc-container {
+  width: 100%;
+  margin-top: 10px;
 }
 #map-desc {
-  margin-left: 38vw;
+  text-align: center;
   font-size: 4em;
 }
 
@@ -152,4 +165,8 @@
   &:hover {
     opacity: .5
   }
+}
+.map-add {
+  text-align: center;
+  font-size: 1.3em;
 }

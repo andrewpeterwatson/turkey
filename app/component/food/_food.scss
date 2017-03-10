@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 500px;
+  height: 700px;
   color: black;
   background-color: white;
 }
@@ -13,7 +13,7 @@
   margin-top: 30px
 }
 .water-rc-container {
-  width: 50%;
+  width: 33%;
   height: 50%;
   float: left;
   margin-top: 292px;
@@ -36,15 +36,27 @@
   // font-family: 'Alegreya', serif;
   // font-family: 'Maven Pro', sans-serif;
 }
-#food-rc {
+.food-rc {
   display: block;
   margin: 0 auto;
   padding: 0 auto;
   text-align: center;
   width: 50%;
+  text-decoration: underline;
+  font-size: 3em;
   // font-family: 'Amatic SC', cursive;
 }
+
 #food-rc-desc {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  width: 60%;
+  margin-left: 96px;
+  text-align: center;
+}
+
+#coffee-rc-desc {
   margin: 0 auto;
   padding: 0 auto;
   display: block;
@@ -57,6 +69,8 @@
   padding: 0 auto;
   text-align: center;
   width: 50%;
+  text-decoration: underline;
+  font-size: 3em;
   // font-family: 'Amatic SC', cursive;
 }
 

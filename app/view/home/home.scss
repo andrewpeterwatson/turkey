@@ -86,7 +86,7 @@
 }
 
 .heading-lodging-image {
-  background-image: url('../../assets/images/meadow.jpg');
+  background-image: url('../../assets/images/lodging-header.jpg');
   background-size: cover;
   background-position: 0px -179px;
   background-repeat: no-repeat;
@@ -99,11 +99,15 @@
   background-repeat: no-repeat;
 }
 .heading-journey-image {
-  background-image: url('../../assets/images/apple-annies.jpg');
+  background-image: url('../../assets/images/journey-header.jpg');
   background-size: cover;
-  // background-position: 0px -179px;
   background-repeat: no-repeat;
+  background-position-y: -340px;
 }
 .heading-contact-image {
   background-color: white;
+}
+.heading-acc-image {
+  background-image: url('../../assets/images/skal-1.jpg');
+  background-size: cover;
 }
