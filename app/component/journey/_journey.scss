@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 4200px;
+  height: 4550px;
   color: black;
   background-image: url('../../assets/images/journey-bg.jpg');
   background-repeat: repeat-y;
@@ -48,10 +48,12 @@
   position: absolute;
   width: 70vw;
   height: 700px;
-  margin-top: 600px;
+  margin-top: 880px;
 }
 
 .journey-stops-heading {
+  width: 70vw;
+  height: 200px;
   text-align: center;
   font-size: 6em;
 }
@@ -62,7 +64,7 @@
   display: block;
   width: 70%;
   text-align: center;
-  margin-top: 35px;
+  margin-top: -87px;
   font-size: 1.3em;
 }
 .journey-stops-image-container {
@@ -104,20 +106,20 @@
   width: 70%;
   text-align: center;
   margin-top: 35px;
-  font-size: 1.8em;
+  font-size: 1.3em;
 }
 
 .cash-wen {
-  margin-top: 1564px;
+  margin-top: 1800px;
 }
 
 .ew {
-  margin-top: 2528px;
+  margin-top: 2990px;
 }
 
 .cash-wen-direc {
   margin-top: 35px;
-  font-size: 2em;
+  font-size: 1.2em;
 }
 
 .cash-wen-add {
@@ -128,7 +130,7 @@
   position: absolute;
   width: 70vw;
   height: 400px;
-  margin-top: 3547px;
+  margin-top: 3895px;
   margin-left: -15vw;
 }
 .map-image-container {

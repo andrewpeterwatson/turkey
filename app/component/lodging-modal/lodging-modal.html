@@ -9,7 +9,9 @@
     <div class="lodging-tent-container" ng-show="lodgeMCtrl.tent">
       <img id="tent-camping-image" src="../../assets/images/camping.jpg" alt="Tent Camping">
       <h2 id="tent-camping-heading">Tent Camping</h2>
-      <p id="tent-camping-desc">Tent campers can camp anywhere within 160 acres of Skalitude but we recommend the Okanogan Forest, which butts up to the property. It has sites that are already tamped down, shaded, and close to the outhouses. If you need to rent any gear we recommend REI Rentals.</p>
+      <div class="tent-camp-desc-container">
+        <p id="tent-camping-desc">Tent campers can camp anywhere within 160 acres of Skalitude but we recommend the Okanogan Forest, which butts up to the property. It has sites that are already tamped down, shaded, and close to the outhouses. If you need to rent any gear we recommend REI Rentals.</p>
+      </div>
     </div>
     <div class="lodging-single-container" ng-show="lodgeMCtrl.single">
       <div class="lodging-single-image-container">
@@ -20,8 +22,12 @@
           <img id="single-2" class="single-image" src="../../assets/images/private-two.jpg" alt="Private Room">
         </div>
           <h2 id="single-heading">Single Camping</h2>
+          <div class="single-desc-container-1">
             <p id="single-desc-1">There are two private rooms with queen beds in the main cabin.</p>
-          <p id="single-desc-2">Since these are limited, priority goes to those with the greatest need.</p>
+          </div>
+          <div class="single-desc-container-2">
+            <p id="single-desc-2">Since these are limited, priority goes to those with the greatest need.</p>
+          </div>
       </div>
     </div>
     <div class="lodging-share-container" ng-show="lodgeMCtrl.share">

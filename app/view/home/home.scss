@@ -42,7 +42,7 @@
 .up-arrow {
   position: absolute;
   width: 100%;
-  margin-top: 33vh;
+  margin-top: 45vh;
 }
 .up-arrow-border {
   margin: 0 auto;
@@ -84,11 +84,14 @@
   margin-top: 280px;
   color: white;
 }
+.heading-acc {
+  font-size: 6em;
+  margin-top: 320px;
+}
 
 .heading-lodging-image {
   background-image: url('../../assets/images/lodging-header.jpg');
-  background-size: cover;
-  background-position: 0px -179px;
+  background-size: 98%;
   background-repeat: no-repeat;
 }
 
@@ -98,16 +101,20 @@
   // background-position: 0px -179px;
   background-repeat: no-repeat;
 }
+.heading-fl {
+  margin-top: 141px;
+}
 .heading-journey-image {
   background-image: url('../../assets/images/journey-header.jpg');
-  background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: -340px;
+  background-size: 100%;
+  background-position-y: -80px;
 }
 .heading-contact-image {
   background-color: white;
 }
 .heading-acc-image {
   background-image: url('../../assets/images/skal-1.jpg');
-  background-size: cover;
+  background-size: 126%;
+  background-position-x: 82%;
 }
