@@ -5,6 +5,12 @@
   height: 1100px;
   color: black;
   background-color: white;
+  @media only screen and (min-width : 615px) {
+    height: 800px;
+  };
+  @media only screen and (min-width : 915px) {
+    height: 600px;
+  };
 }
 .food-container {
   position: absolute;
@@ -47,8 +53,19 @@
   display: block;
   width: 72%;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.1em;
   margin-top: 35px;
+
+  @media only screen and (max-width : 550px) {
+    margin-top: 145px;
+  };
+  @media only screen and (min-width : 551px) {
+    font-size: 1.4em;
+    margin-top: 75px;
+  };
+  @media only screen and (min-width : 833px) {
+    margin-top: 150px;
+  };
 }
 .food-rc {
   display: block;

@@ -7,7 +7,12 @@
   background-image: url('../../assets/images/journey-bg.jpg');
   background-repeat: repeat-y;
   background-size: contain;
-
+  @media only screen and (max-width : 550px) {
+    height: 4300px;
+  };
+  @media only screen and (min-width : 900px) {
+    height: 4050px;
+  };
 }
 
 .journey-container {
@@ -30,6 +35,9 @@
   width: 100%;
   text-align: center;
   font-size: 4em;
+  @media only screen and (max-width : 550px) {
+    font-size: 3em;
+  };
 }
 
 #journey-fluff-desc {
@@ -40,6 +48,9 @@
   text-align: center;
   margin-top: 35px;
   font-size: 1.3em;
+  @media only screen and (min-width : 551px) {
+    font-size: 1.5em;
+  };
 }
 
 
@@ -49,6 +60,12 @@
   width: 70vw;
   height: 700px;
   margin-top: 880px;
+  @media only screen and (max-width : 550px) {
+    margin-top: 1075px;
+  };
+  @media only screen and (min-width : 900px) {
+    margin-top: 700px;
+  };
 }
 
 .journey-stops-heading {
@@ -56,6 +73,9 @@
   height: 200px;
   text-align: center;
   font-size: 6em;
+  @media only screen and (max-width : 550px) {
+    font-size: 4em;
+  };
 }
 
 .journey-stops-direc {
@@ -79,6 +99,10 @@
   display: block;
   width: 500px;
   box-shadow: 0px 14px 66px 12px rgba(0,0,0,0.75);
+  @media only screen and (max-width : 550px) {
+    width: 80vw;
+    margin-left: 10vw;
+  };
 }
 .journey-stops-location {
   width: 50%;
@@ -95,6 +119,9 @@
   margin-top: 386px;
   font-size: 1.5em;
   text-align: center;
+  @media only screen and (max-width : 550px) {
+    margin-top: 60vw;
+  };
 }
 
 .journey-stops-address-names {
@@ -111,19 +138,47 @@
 
 .cash-wen {
   margin-top: 1800px;
+  @media only screen and (max-width : 550px) {
+    margin-top: 600vw;
+  };
+  @media only screen and (min-width : 551px) {
+    margin-top: 1685px;
+  };
+  @media only screen and (min-width : 900px) {
+    margin-top: 1485px;
+  };
 }
 
 .ew {
   margin-top: 2990px;
+  @media only screen and (max-width : 550px) {
+    margin-top: 950vw;
+  };
+  @media only screen and (min-width : 551px) {
+    margin-top: 2790px;
+  };
+  @media only screen and (min-width : 900px) {
+    margin-top: 2490px;
+  };
 }
 
 .cash-wen-direc {
   margin-top: 35px;
   font-size: 1.2em;
+  @media only screen and (max-width : 550px) {
+    margin-top: -68px;
+    font-size: 1em;
+  };
+  @media only screen and (min-width : 551px) {
+    font-size: 1.6em;
+  };
 }
 
 .cash-wen-add {
   margin-top: 310px;
+  @media only screen and (max-width : 550px) {
+    margin-top: 52vw;
+  };
 }
 
 .map-contatiner {
@@ -132,6 +187,12 @@
   height: 400px;
   margin-top: 3895px;
   margin-left: -15vw;
+  @media only screen and (max-width : 550px) {
+    margin-top: 1206vw;
+  };
+  @media only screen and (min-width : 900px) {
+    margin-top: 3295px;
+  };
 }
 .map-image-container {
   position: absolute;
@@ -145,6 +206,10 @@
   width: 400px;
   margin-top: -400px;
   box-shadow: 0px 0px 40px -6px rgba(0,0,0,0.75);
+  @media only screen and (max-width : 550px) {
+    width: 80vw;
+    margin-left: 10vw;
+  };
 }
 .map-desc-container {
   width: 100%;
@@ -171,4 +236,7 @@
 .map-add {
   text-align: center;
   font-size: 1.3em;
+  @media only screen and (max-width : 550px) {
+    font-size: .8em;
+  };
 }

@@ -2,11 +2,17 @@
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 500px;
+  height: 665px;
   color: black;
   background-color: white;
   // background-image: url('../../assets/images/skal-1.jpg');
   // background-size: cover;
+  @media only screen and (min-width : 779px) {
+    background-position-y: -114px;
+ };
+ @media only screen and (min-width : 833px) {
+   height: 525px;
+};
 }
 .acc-container {
   position: absolute;
@@ -38,5 +44,5 @@
 
 #acc-desc {
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1.5em;
 }

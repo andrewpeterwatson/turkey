@@ -7,10 +7,19 @@
   background-image: url('../../assets/images/pattern-3.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
+  @media only screen and (max-width : 550px) {
+    height: 74vh;
+  };
+  @media only screen and (min-width : 551px) {
+    height: 565px;
+  };
 }
 .heading-contact {
   text-align: center;
   font-size: 8em;
+  @media only screen and (max-width : 550px) {
+    font-size: 5em;
+  };
 }
 
 .contact-contaner {
@@ -22,12 +31,18 @@
 #contact-gobble {
   text-align: center;
   font-size: 4em;
+  @media only screen and (max-width : 550px) {
+    font-size: 2em;
+  };
 }
 
 
 #contact-link {
   text-align: center;
   font-size: 2em;
+  @media only screen and (max-width : 550px) {
+    font-size: 1.3em;
+  };
 
   &:hover {
     color: white;
