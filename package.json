@@ -13,7 +13,8 @@
     "watch": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot",
     "build": "./node_modules/webpack/bin/webpack.js",
     "start": "node server.js",
-    "test": ""
+    "test": "",
+    "dev" : "killall node && webpack-dev-server"
   },
   "keywords": [],
   "author": "",
