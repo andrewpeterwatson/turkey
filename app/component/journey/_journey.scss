@@ -60,9 +60,12 @@
   width: 70vw;
   height: 700px;
   margin-top: 880px;
-  @media only screen and (max-width : 550px) {
-    margin-top: 1075px;
+  @media only screen and (max-width : 415px) {
+    margin-top: 935px;
   };
+  // @media only screen and (max-width : 550px) {
+  //   margin-top: 1075px;
+  // };
   @media only screen and (min-width : 900px) {
     margin-top: 700px;
   };
@@ -137,9 +140,9 @@
 }
 
 .cash-wen {
-  margin-top: 1800px;
+  margin-top: 1653px;
   @media only screen and (max-width : 550px) {
-    margin-top: 600vw;
+    margin-top: 1700px;
   };
   @media only screen and (min-width : 551px) {
     margin-top: 1685px;
@@ -152,7 +155,7 @@
 .ew {
   margin-top: 2990px;
   @media only screen and (max-width : 550px) {
-    margin-top: 950vw;
+    margin-top: 2630px;
   };
   @media only screen and (min-width : 551px) {
     margin-top: 2790px;
@@ -188,10 +191,10 @@
   margin-top: 3895px;
   margin-left: -15vw;
   @media only screen and (max-width : 550px) {
-    margin-top: 1206vw;
+    margin-top: 3535px;
   };
   @media only screen and (min-width : 900px) {
-    margin-top: 3295px;
+    margin-top: 3455px;
   };
 }
 .map-image-container {
@@ -235,8 +238,8 @@
 }
 .map-add {
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.7em;
   @media only screen and (max-width : 550px) {
-    font-size: .8em;
+    font-size: 1.3em;
   };
 }
