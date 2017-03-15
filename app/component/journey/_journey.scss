@@ -2,11 +2,17 @@
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 4200px;
+  height: 4550px;
   color: black;
   background-image: url('../../assets/images/journey-bg.jpg');
   background-repeat: repeat-y;
-
+  background-size: contain;
+  @media only screen and (max-width : 550px) {
+    height: 4300px;
+  };
+  @media only screen and (min-width : 900px) {
+    height: 4050px;
+  };
 }
 
 .journey-container {
@@ -29,6 +35,9 @@
   width: 100%;
   text-align: center;
   font-size: 4em;
+  @media only screen and (max-width : 550px) {
+    font-size: 3em;
+  };
 }
 
 #journey-fluff-desc {
@@ -39,18 +48,37 @@
   text-align: center;
   margin-top: 35px;
   font-size: 1.3em;
+  @media only screen and (min-width : 551px) {
+    font-size: 1.5em;
+  };
 }
+
+
 
 .journey-stops-container {
   position: absolute;
   width: 70vw;
   height: 700px;
-  margin-top: 600px;
+  margin-top: 880px;
+  @media only screen and (max-width : 415px) {
+    margin-top: 935px;
+  };
+  // @media only screen and (max-width : 550px) {
+  //   margin-top: 1075px;
+  // };
+  @media only screen and (min-width : 900px) {
+    margin-top: 700px;
+  };
 }
 
 .journey-stops-heading {
+  width: 70vw;
+  height: 200px;
   text-align: center;
   font-size: 6em;
+  @media only screen and (max-width : 550px) {
+    font-size: 4em;
+  };
 }
 
 .journey-stops-direc {
@@ -59,7 +87,7 @@
   display: block;
   width: 70%;
   text-align: center;
-  margin-top: 35px;
+  margin-top: -87px;
   font-size: 1.3em;
 }
 .journey-stops-image-container {
@@ -74,16 +102,29 @@
   display: block;
   width: 500px;
   box-shadow: 0px 14px 66px 12px rgba(0,0,0,0.75);
+  @media only screen and (max-width : 550px) {
+    width: 80vw;
+    margin-left: 10vw;
+  };
 }
 .journey-stops-location {
   width: 50%;
   float: left;
   outline: 2px white solid;
 }
+
+.journey-stops-location-annies {
+  width: 100%;
+  outline: 2px white solid;
+}
+
 .journey-stops-address {
   margin-top: 386px;
   font-size: 1.5em;
   text-align: center;
+  @media only screen and (max-width : 550px) {
+    margin-top: 60vw;
+  };
 }
 
 .journey-stops-address-names {
@@ -95,32 +136,66 @@
   width: 70%;
   text-align: center;
   margin-top: 35px;
-  font-size: 1.8em;
+  font-size: 1.3em;
 }
 
 .cash-wen {
-  margin-top: 1564px;
+  margin-top: 1653px;
+  @media only screen and (max-width : 550px) {
+    margin-top: 1700px;
+  };
+  @media only screen and (min-width : 551px) {
+    margin-top: 1685px;
+  };
+  @media only screen and (min-width : 900px) {
+    margin-top: 1485px;
+  };
 }
 
 .ew {
-  margin-top: 2528px;
+  margin-top: 2990px;
+  @media only screen and (max-width : 550px) {
+    margin-top: 2630px;
+  };
+  @media only screen and (min-width : 551px) {
+    margin-top: 2790px;
+  };
+  @media only screen and (min-width : 900px) {
+    margin-top: 2490px;
+  };
 }
 
 .cash-wen-direc {
   margin-top: 35px;
-  font-size: 2em;
+  font-size: 1.2em;
+  @media only screen and (max-width : 550px) {
+    margin-top: -68px;
+    font-size: 1em;
+  };
+  @media only screen and (min-width : 551px) {
+    font-size: 1.6em;
+  };
 }
 
 .cash-wen-add {
-  margin-top: 70px;
+  margin-top: 310px;
+  @media only screen and (max-width : 550px) {
+    margin-top: 52vw;
+  };
 }
 
 .map-contatiner {
   position: absolute;
   width: 70vw;
   height: 400px;
-  margin-top: 3547px;
+  margin-top: 3895px;
   margin-left: -15vw;
+  @media only screen and (max-width : 550px) {
+    margin-top: 3535px;
+  };
+  @media only screen and (min-width : 900px) {
+    margin-top: 3455px;
+  };
 }
 .map-image-container {
   position: absolute;
@@ -133,10 +208,18 @@
   display: block;
   width: 400px;
   margin-top: -400px;
-  box-shadow: 0px 0px 63px 6px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 40px -6px rgba(0,0,0,0.75);
+  @media only screen and (max-width : 550px) {
+    width: 80vw;
+    margin-left: 10vw;
+  };
+}
+.map-desc-container {
+  width: 100%;
+  margin-top: 10px;
 }
 #map-desc {
-  margin-left: 38vw;
+  text-align: center;
   font-size: 4em;
 }
 
@@ -152,4 +235,11 @@
   &:hover {
     opacity: .5
   }
+}
+.map-add {
+  text-align: center;
+  font-size: 1.7em;
+  @media only screen and (max-width : 550px) {
+    font-size: 1.3em;
+  };
 }

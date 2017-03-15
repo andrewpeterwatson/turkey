@@ -7,28 +7,34 @@
     <!-- <div class="lodging-hotel-overlay"></div> -->
 
     <div class="lodging-tent-container" ng-show="lodgeMCtrl.tent">
-      <img id="tent-camping-image" src="../../assets/images/camping.jpg" alt="Tent Camping">
+      <!-- <img id="tent-camping-image" src="../../assets/images/camping.jpg" alt="Tent Camping"> -->
       <h2 id="tent-camping-heading">Tent Camping</h2>
-      <p id="tent-camping-desc">Tent campers can camp anywhere within 160 acres of Skalitude but we recommend the Okanogan Forest, which butts up to the property. It has sites that are already tamped down, shaded, and close to the outhouses. If you need to rent any gear we recommend REI Rentals.</p>
+      <div class="tent-camp-desc-container">
+        <p id="tent-camping-desc">Tent campers can camp anywhere within the 160 acres of Skalitude but we recommend the Okanogan Forest, which butts up to the property. It has sites that are already tamped down, shaded, and close to the outhouses. If you need to rent any gear we recommend REI Rentals.</p>
+      </div>
     </div>
     <div class="lodging-single-container" ng-show="lodgeMCtrl.single">
       <div class="lodging-single-image-container">
         <div class="lodging-single-images">
-          <img id="single-1" class="single-image" src="../../assets/images/meadow.jpg" alt="Private Room">
+          <img id="single-1" class="single-image" src="../../assets/images/private-one.jpg" alt="Private Room">
         </div>
         <div class="lodging-single-images">
-          <img id="single-2" class="single-image" src="../../assets/images/private-2.jpg" alt="Private Room">
+          <img id="single-2" class="single-image" src="../../assets/images/private-two.jpg" alt="Private Room">
         </div>
-          <h2 id="single-heading">Single Camping</h2>
+          <h2 id="single-heading">Private Room</h2>
+          <div class="single-desc-container-1">
             <p id="single-desc-1">There are two private rooms with queen beds in the main cabin.</p>
-          <p id="single-desc-2">Since these are limited, priority goes to those with the greatest need.</p>
+          </div>
+          <div class="single-desc-container-2">
+            <p id="single-desc-2">Since these are limited, priority goes to those with the greatest need.</p>
+          </div>
       </div>
     </div>
     <div class="lodging-share-container" ng-show="lodgeMCtrl.share">
-      <h2 id="shared-heading">Social SLeeping</h2>
+      <h2 id="shared-heading">Social Sleeping</h2>
       <div class="lodging-share-image-container">
         <div class="lodging-share-images">
-          <p id="main-2-desc">Main Cabin – includes a kitchen, plumbed bathroom, and living/dinning room area,</p>
+          <p id="main-2-desc">Main Cabin includes a kitchen, 3 plumbed bathrooms, and a living/dinning room area.</p>
           <img id="main-2" src="../../assets/images/main-cabin-2.jpg" alt="Share Cabin">
         </div>
         <div class="lodging-share-images">
@@ -36,8 +42,8 @@
           <img id="main-1" src="../../assets/images/main-cabin-1.jpg" alt="Share Cabin">
         </div>
         <div class="lodging-share-images">
-          <p id="main-3-desc">Bermhouse – includes half shared baths, twin beds and dressers.</p>
-          <img id="main-3" src="../../assets/images/main-cabin-3.jpg" alt="Share Cabin"></div>
+          <p id="main-3-desc">Bermhouse includes half shared baths, twin beds and dressers.</p>
+          <img id="main-3" src="../../assets/images/social-berm.jpg" alt="Share Cabin"></div>
       </div>
     </div>
 

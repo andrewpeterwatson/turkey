@@ -8,6 +8,17 @@
   color: black;
   background-color: rgba(0, 0, 0, 0.75);;
 }
+.lodging-tent-container {
+  height: 50vw;
+  width: 80vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/images/camping.jpg');
+
+  @media only screen and (max-width : 550px) {
+    height: 110vw;
+  };
+}
 .lodging-hotel-overlay {
   position: absolute;
   height: 400px;
@@ -36,16 +47,22 @@
   padding: 0 auto;
   margin: 0 auto;
   display: block;
-  width: 700px;
-  height: 400px;
+  width: 80vw;
   margin-top: 170px;
   overflow: hidden;
   background-color: white;
   outline: 2px white solid;
 }
+.tent-camp-desc-container {
+  position: absolute;
+  width: 66%;
+  height: 100%;
+  margin-left: 10%;
+  margin: 7%;
+}
 #tent-camping-image {
   position: absolute;
-  width: 722px;
+  width: 80vw;
   outline: 2px white solid;
 }
 #tent-camping-heading {
@@ -55,24 +72,30 @@
   color: white;
 }
 #tent-camping-desc {
-  position: absolute;
-  width: 428px;
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
   text-align: center;
   color: white;
   font-size: 1.3em;
-  margin-top: 113px;
-  margin-left: 144px;
+  @media only screen and (min-width : 635px) {
+    font-size: 2em;
+  };
 }
 
 .lodging-hotel-container {
-  height: 100%;
-  width: 100%;
+  height: 50vw;
+  width: 80vw;
+
+  @media only screen and (max-width : 550px) {
+    height: 100vw;
+  };
 }
 .lodging-hotel-els {
   width: 50%;
   height: 100%;
   float: left;
-  outline: 18px white solid;
+  outline: 2px white solid;
 }
 .airbnb {
   background-image: url('../../assets/images/air-image.png');
@@ -84,67 +107,111 @@
 }
 
 .lodging-share-container {
-  height: 100%;
-  width: 100%;
+  height: 50vw;
+  width: 81vw;
   background-color: white;
+  @media only screen and (max-width : 550px) {
+    height: 125vw;
+  };
 }
 
 .lodging-share-images {
-  height: 400px;
-  width: 233.3px;
+  margin: 0 auto;
+  padding: 0 auto;
+  height: 50vw;
+  width: 33%;
   float: left;
   background-color: white;
   overflow: hidden;
   outline: 2px white solid;
+  @media only screen and (max-width : 550px) {
+    height: 42vw;
+    width: 100%;
+  };
 }
 #shared-heading{
   position: absolute;
   margin-top: -70px;
   color: white;
   font-size: 5em;
+  @media only screen and (max-width : 550px) {
+    margin-top: -144px;
+  };
 }
 #main-1 {
-  height: 400px;
+  height: 100%;
   margin-left: -160px;
+  @media only screen and (max-width : 550px) {
+    width: 100%;
+    margin-left: 0;
+  };
 }
 #main-2 {
-  height: 400px;
+  height: 100%;
   margin-left: -116px;
+  @media only screen and (max-width : 550px) {
+    width: 100%;
+    margin-left: 0;
+  };
 }
 #main-3 {
-  height: 400px;
-  margin-left: -99px;
+  height: 100%;
+  margin-left: -2px;
+  @media only screen and (max-width : 550px) {
+    width: 100%;
+    margin-left: 0;
+  };
 }
 
 #main-1-desc {
   position: absolute;
-  width: 200px;
+  width: 24%;
   height: 300px;
-  font-size: 1.5em;
+  font-size: 1em;
   color: white;
-  margin-left: 24px;
-  margin-top: 30px;
+  margin-left: 2%;
+  margin-top: 15%;
   text-align: center;
+  @media only screen and (max-width : 550px) {
+    margin-left: 47vw;
+    margin-top: 8px;
+  };
+  @media only screen and (min-width : 1030px) {
+    font-size: 3em;
+  };
 }
 #main-2-desc {
   position: absolute;
-  width: 200px;
+  width: 22%;
   height: 300px;
-  font-size: 1.5em;
+  font-size: 1em;
   color: white;
-  margin-left: 24px;
-  margin-top: 240px;
+  margin-left: 2%;
+  margin-top: 4%;
   text-align: center;
+  @media only screen and (max-width : 550px) {
+    margin-left: 21vw;
+    margin-top: 8px;
+  };
+  @media only screen and (min-width : 1030px) {
+    font-size: 3em;
+  };
 }
 #main-3-desc {
   position: absolute;
-  width: 200px;
+  width: 24%;
   height: 300px;
-  font-size: 1.5em;
+  font-size: 1em;
   color: white;
-  margin-left: 24px;
-  margin-top: 240px;
+  margin-left: 1.4%;
+  margin-top: 3%;
   text-align: center;
+  @media only screen and (max-width : 550px) {
+    margin-left: 28vw;
+  };
+  @media only screen and (min-width : 1030px) {
+    font-size: 3em;
+  };
 }
 
 
@@ -152,71 +219,102 @@
   position: absolute;
   margin-left: 26px;
   margin-top: 36px;
-  width: 300px;
+  width: 30%;
 }
 #twisp-desc {
-  width: 305px;
+  width: 34vw;
   text-align: center;
   color: black;
   font-size: 1em;
   margin: 0 auto;
   padding: 0 auto;
   display: block;
-  margin-top: 200px;
+  margin-top: 21vw;
+  @media only screen and (max-width : 550px) {
+    margin-top: 30vw;
+  };
+  @media only screen and (min-width : 960px) {
+    font-size: 2em;
+  };
 }
 
 .lodging-single-image-container {
-  height: 400px;
-  width: 700px;
+  height: 50vw;
+  width: 80vw;
+  @media only screen and (max-width : 550px) {
+    height: 100vw;
+  };
 }
 .lodging-single-images {
-  height: 400px;
-  width: 350px;
+  height: 100%;
+  width: 50%;
   float: left;
   overflow: hidden;
   outline: 1px solid white;
 }
+.single-desc-container-1 {
+  position: absolute;
+  width: 34%;
+  margin-top: 25%;
+  margin-left: 4%;
+}
+.single-desc-container-2 {
+  position: absolute;
+  width: 34%;
+  margin-top: 4%;
+  margin-left: 44%;
+}
 .single-image {
-  height: 400px;
+  height: 100%;
 }
 #single-1 {
   margin-left: -54px;
 }
 #single-2 {
-  margin-left: -172px;
+  margin-left: -110px;
+  @media only screen and (max-width : 550px) {
+    margin-left: -214px;
+  };
 }
 #single-heading {
   position: absolute;
   margin-top: -70px;
   font-size: 5em;
   color: white;
+
+  @media only screen and (max-width : 550px) {
+    margin-top: -145px;
+  };
 }
 #single-desc-1 {
-  position: absolute;
-  width: 200px;
-  height: 300px;
   font-size: 1.5em;
   color: white;
-  margin-left: 73px;
-  margin-top: 219px;
   text-align: center;
+  @media only screen and (max-width : 550px) {
+    font-size: 1.3em;
+    margin-top: 24vw;
+  };
+  @media only screen and (min-width : 1030px) {
+    font-size: 3em;
+  };
 }
 #single-desc-2 {
-  position: absolute;
-  width: 200px;
-  height: 300px;
   font-size: 1.5em;
   color: white;
-  margin-left: 430px;
-  margin-top: 30px;
   text-align: center;
+  @media only screen and (max-width : 550px) {
+    font-size: 1.3em;
+  };
+  @media only screen and (min-width : 1030px) {
+    font-size: 3em;
+  };
 }
 
 #airBnB-icon {
   position: absolute;
   margin-left: 25px;
   margin-top: 50px;
-  width: 300px;
+  width: 30%;
 }
 #air-desc {
   width: 305px;
@@ -224,9 +322,16 @@
   color: black;
   font-size: 1em;
   margin: 0 auto;
+  width: 30vw;
   padding: 0 auto;
   display: block;
-  margin-top: 200px;
+  margin-top: 20vw;
+  @media only screen and (max-width : 550px) {
+    margin-top: 30vw;
+  };
+  @media only screen and (min-width : 960px) {
+    font-size: 2em;
+  };
 }
 #hotel-heading {
   position: absolute;

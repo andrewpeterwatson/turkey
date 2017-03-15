@@ -5,6 +5,15 @@
   height: 1550px;
   color: black;
   background-color: white;
+  @media only screen and (min-width : 400px) {
+   height: 1175px;
+ };
+ @media only screen and (min-width : 510px) {
+  height: 1027px;
+};
+@media only screen and (min-width : 700px) {
+ height: 885px;
+};
 }
 .info-welcome-container {
     position: absolute;
@@ -14,11 +23,20 @@
 
 .info-welcome-desc {
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
+  line-height: .99;
   margin-top: 30px;
+
+  @media only screen and (max-width : 550px) {
+    font-size: 2em;
+    line-height: .99;
+ };
 }
 .info-welcome-heading{
-  font-size: 7em;
+  font-size: 4em;
+  @media only screen and (max-width : 550px) {
+   font-size: 4em;
+ };
 }
 .text-left {
   text-align: left;
@@ -33,7 +51,7 @@
   margin: 0 auto;
   padding: 0 auto;
   display: block;
-  width: 55vw;
+  width: 80vw;
 }
 
 #info-contact-anchor {

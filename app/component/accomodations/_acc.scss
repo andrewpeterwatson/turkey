@@ -1,12 +1,22 @@
 .acc {
-  outline: 1px darkblue solid;
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 500px;
-  color: white;
-  background-image: url('../../assets/images/skal-1.jpg');
-  background-size: cover;
+  height: 665px;
+  color: black;
+  background-color: white;
+  // background-image: url('../../assets/images/skal-1.jpg');
+  // background-size: cover;
+  @media only screen and (min-width : 779px) {
+    background-position-y: -114px;
+ };
+ @media only screen and (min-width : 833px) {
+   height: 525px;
+};
+}
+.acc-container {
+  position: absolute;
+  width: 100%;
 }
 
 .acc-desc-container {
@@ -14,6 +24,12 @@
   padding: 0 auto;
   display: block;
   width: 60%;
+  margin-top: 65px;
+
+  @media only screen and (max-width : 550px) {
+    width: 75%;
+    margin-top: 29px;
+ };
 }
 .acc-heading-container {
   margin: 0 auto;
@@ -28,5 +44,5 @@
 
 #acc-desc {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }

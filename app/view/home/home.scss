@@ -42,7 +42,10 @@
 .up-arrow {
   position: absolute;
   width: 100%;
-  margin-top: 33vh;
+  margin-top: 45vh;
+  @media only screen and (max-width : 550px) {
+    margin-top: 95vw;
+  };
 }
 .up-arrow-border {
   margin: 0 auto;
@@ -83,13 +86,37 @@
   font-size: 9em;
   margin-top: 280px;
   color: white;
+
+  @media only screen and (max-width : 550px) {
+   font-size: 4em;
+   margin-top: 347px;
+ };
+}
+.heading-acc {
+  font-size: 6em;
+  margin-top: 320px;
+
+  @media only screen and (max-width : 550px) {
+   font-size: 4em;
+   margin-top: 342px;
+ };
+
 }
 
 .heading-lodging-image {
-  background-image: url('../../assets/images/meadow.jpg');
-  background-size: cover;
-  background-position: 0px -179px;
+  background-image: url('../../assets/images/lodging-header.jpg');
+  background-size: 100%;
   background-repeat: no-repeat;
+
+  @media only screen and (max-width : 550px) {
+    background-size: cover;
+ };
+ @media only screen and (min-width : 551px) {
+  background-position: bottom;
+};
+@media only screen and (min-width : 1280px) {
+ background-position-y: -800px;
+};
 }
 
 .heading-fl-image {
@@ -97,13 +124,48 @@
   background-size: cover;
   // background-position: 0px -179px;
   background-repeat: no-repeat;
+  // @media only screen and (max-width : 550px) {
+  //   background-position-x: -167px;
+  // };
+}
+.heading-fl {
+  margin-top: 141px;
+  @media only screen and (max-width : 550px) {
+    margin-top: 287px;
+  };
+  @media only screen and (min-width : 815px) {
+    margin-top: 283px;
+  };
 }
 .heading-journey-image {
-  background-image: url('../../assets/images/apple-annies.jpg');
-  background-size: cover;
-  // background-position: 0px -179px;
+  background-image: url('../../assets/images/journey-header.jpg');
   background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: -80px;
+  @media only screen and (max-width : 550px) {
+    background-size: 148%;
+    background-position-x: -58px;
+ };
+ @media only screen and (max-width : 12225px) {
+   background-position-y: -63vw;
+
+};
 }
 .heading-contact-image {
   background-color: white;
+}
+.heading-acc-image {
+  background-image: url('../../assets/images/skal-1.jpg');
+  background-size: 126%;
+  background-position-x: 82%;
+
+  @media only screen and (max-width : 550px) {
+    background-size: cover;
+ };
+ @media only screen and (min-width : 779px) {
+  background-position-y: -120px;
+};
+@media only screen and (min-width : 1250px) {
+ background-position-y: -302px;
+};
 }

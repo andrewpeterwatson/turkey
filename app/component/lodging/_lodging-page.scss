@@ -8,10 +8,13 @@
   background-color: white;
 
   @media only screen and (min-width : 740px) {
-    height: 850px;
+    height: 810px;
+  };
+  @media only screen and (min-width : 1480px) {
+    height: 410px;
   };
 
-  @media only screen and (min-width : 1480px) {
-    height: 500px;
-  }
+  // @media only screen and (min-width : 1480px) {
+  //   height: 500px;
+  // }
 }
